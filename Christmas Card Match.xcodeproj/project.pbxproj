@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CC22F321BDC110600AB0C9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC22F311BDC110600AB0C9D /* AppDelegate.swift */; };
+		4CC22F341BDC110600AB0C9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC22F331BDC110600AB0C9D /* ViewController.swift */; };
+		4CC22F481BDC110600AB0C9D /* Christmas_Card_MatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC22F471BDC110600AB0C9D /* Christmas_Card_MatchTests.swift */; };
+		4CC22F521BDC11D100AB0C9D /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC22F511BDC11D100AB0C9D /* GameModel.swift */; };
+		4CC22F541BDC126B00AB0C9D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC22F531BDC126B00AB0C9D /* Card.swift */; };
+		4CC22F581BDC12CA00AB0C9D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC22F571BDC12CA00AB0C9D /* Images.xcassets */; };
+		4CC22F5C1BDC130200AB0C9D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC22F5B1BDC130200AB0C9D /* LaunchScreen.xib */; };
+		4CC22F631BDC132C00AB0C9D /* dingwrong.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4CC22F5D1BDC132C00AB0C9D /* dingwrong.wav */; };
+		4CC22F641BDC132C00AB0C9D /* RedChristmas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CC22F5E1BDC132C00AB0C9D /* RedChristmas.jpg */; };
+		4CC22F651BDC132C00AB0C9D /* LastChristmasInstrumental.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4CC22F5F1BDC132C00AB0C9D /* LastChristmasInstrumental.mp3 */; };
+		4CC22F661BDC132C00AB0C9D /* dingcorrect.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4CC22F601BDC132C00AB0C9D /* dingcorrect.wav */; };
+		4CC22F671BDC132C00AB0C9D /* shuffle.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4CC22F611BDC132C00AB0C9D /* shuffle.wav */; };
+		4CC22F681BDC132C00AB0C9D /* cardflip.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4CC22F621BDC132C00AB0C9D /* cardflip.wav */; };
+		4CC22F6C1BDC13BD00AB0C9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC22F6B1BDC13BD00AB0C9D /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CC22F421BDC110600AB0C9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CC22F241BDC110600AB0C9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CC22F2B1BDC110600AB0C9D;
+			remoteInfo = "Christmas Card Match";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CC22F2C1BDC110600AB0C9D /* Christmas Card Match.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Christmas Card Match.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CC22F301BDC110600AB0C9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CC22F311BDC110600AB0C9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CC22F331BDC110600AB0C9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CC22F411BDC110600AB0C9D /* Christmas Card MatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Christmas Card MatchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CC22F461BDC110600AB0C9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CC22F471BDC110600AB0C9D /* Christmas_Card_MatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Christmas_Card_MatchTests.swift; sourceTree = "<group>"; };
+		4CC22F511BDC11D100AB0C9D /* GameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		4CC22F531BDC126B00AB0C9D /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		4CC22F571BDC12CA00AB0C9D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4CC22F5B1BDC130200AB0C9D /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		4CC22F5D1BDC132C00AB0C9D /* dingwrong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dingwrong.wav; sourceTree = "<group>"; };
+		4CC22F5E1BDC132C00AB0C9D /* RedChristmas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RedChristmas.jpg; sourceTree = "<group>"; };
+		4CC22F5F1BDC132C00AB0C9D /* LastChristmasInstrumental.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LastChristmasInstrumental.mp3; sourceTree = "<group>"; };
+		4CC22F601BDC132C00AB0C9D /* dingcorrect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dingcorrect.wav; sourceTree = "<group>"; };
+		4CC22F611BDC132C00AB0C9D /* shuffle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shuffle.wav; sourceTree = "<group>"; };
+		4CC22F621BDC132C00AB0C9D /* cardflip.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cardflip.wav; sourceTree = "<group>"; };
+		4CC22F6B1BDC13BD00AB0C9D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CC22F291BDC110600AB0C9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CC22F3E1BDC110600AB0C9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CC22F231BDC110600AB0C9D = {
+			isa = PBXGroup;
+			children = (
+				4CC22F2E1BDC110600AB0C9D /* Christmas Card Match */,
+				4CC22F441BDC110600AB0C9D /* Christmas Card MatchTests */,
+				4CC22F2D1BDC110600AB0C9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CC22F2D1BDC110600AB0C9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CC22F2C1BDC110600AB0C9D /* Christmas Card Match.app */,
+				4CC22F411BDC110600AB0C9D /* Christmas Card MatchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CC22F2E1BDC110600AB0C9D /* Christmas Card Match */ = {
+			isa = PBXGroup;
+			children = (
+				4CC22F311BDC110600AB0C9D /* AppDelegate.swift */,
+				4CC22F331BDC110600AB0C9D /* ViewController.swift */,
+				4CC22F511BDC11D100AB0C9D /* GameModel.swift */,
+				4CC22F531BDC126B00AB0C9D /* Card.swift */,
+				4CC22F6B1BDC13BD00AB0C9D /* Main.storyboard */,
+				4CC22F571BDC12CA00AB0C9D /* Images.xcassets */,
+				4CC22F5B1BDC130200AB0C9D /* LaunchScreen.xib */,
+				4CC22F2F1BDC110600AB0C9D /* Supporting Files */,
+			);
+			path = "Christmas Card Match";
+			sourceTree = "<group>";
+		};
+		4CC22F2F1BDC110600AB0C9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CC22F5D1BDC132C00AB0C9D /* dingwrong.wav */,
+				4CC22F5E1BDC132C00AB0C9D /* RedChristmas.jpg */,
+				4CC22F5F1BDC132C00AB0C9D /* LastChristmasInstrumental.mp3 */,
+				4CC22F601BDC132C00AB0C9D /* dingcorrect.wav */,
+				4CC22F611BDC132C00AB0C9D /* shuffle.wav */,
+				4CC22F621BDC132C00AB0C9D /* cardflip.wav */,
+				4CC22F301BDC110600AB0C9D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CC22F441BDC110600AB0C9D /* Christmas Card MatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CC22F471BDC110600AB0C9D /* Christmas_Card_MatchTests.swift */,
+				4CC22F451BDC110600AB0C9D /* Supporting Files */,
+			);
+			path = "Christmas Card MatchTests";
+			sourceTree = "<group>";
+		};
+		4CC22F451BDC110600AB0C9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CC22F461BDC110600AB0C9D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CC22F2B1BDC110600AB0C9D /* Christmas Card Match */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CC22F4B1BDC110600AB0C9D /* Build configuration list for PBXNativeTarget "Christmas Card Match" */;
+			buildPhases = (
+				4CC22F281BDC110600AB0C9D /* Sources */,
+				4CC22F291BDC110600AB0C9D /* Frameworks */,
+				4CC22F2A1BDC110600AB0C9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Christmas Card Match";
+			productName = "Christmas Card Match";
+			productReference = 4CC22F2C1BDC110600AB0C9D /* Christmas Card Match.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CC22F401BDC110600AB0C9D /* Christmas Card MatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CC22F4E1BDC110600AB0C9D /* Build configuration list for PBXNativeTarget "Christmas Card MatchTests" */;
+			buildPhases = (
+				4CC22F3D1BDC110600AB0C9D /* Sources */,
+				4CC22F3E1BDC110600AB0C9D /* Frameworks */,
+				4CC22F3F1BDC110600AB0C9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CC22F431BDC110600AB0C9D /* PBXTargetDependency */,
+			);
+			name = "Christmas Card MatchTests";
+			productName = "Christmas Card MatchTests";
+			productReference = 4CC22F411BDC110600AB0C9D /* Christmas Card MatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CC22F241BDC110600AB0C9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = TadCorp;
+				TargetAttributes = {
+					4CC22F2B1BDC110600AB0C9D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					4CC22F401BDC110600AB0C9D = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 4CC22F2B1BDC110600AB0C9D;
+					};
+				};
+			};
+			buildConfigurationList = 4CC22F271BDC110600AB0C9D /* Build configuration list for PBXProject "Christmas Card Match" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CC22F231BDC110600AB0C9D;
+			productRefGroup = 4CC22F2D1BDC110600AB0C9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CC22F2B1BDC110600AB0C9D /* Christmas Card Match */,
+				4CC22F401BDC110600AB0C9D /* Christmas Card MatchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CC22F2A1BDC110600AB0C9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC22F641BDC132C00AB0C9D /* RedChristmas.jpg in Resources */,
+				4CC22F651BDC132C00AB0C9D /* LastChristmasInstrumental.mp3 in Resources */,
+				4CC22F681BDC132C00AB0C9D /* cardflip.wav in Resources */,
+				4CC22F631BDC132C00AB0C9D /* dingwrong.wav in Resources */,
+				4CC22F671BDC132C00AB0C9D /* shuffle.wav in Resources */,
+				4CC22F5C1BDC130200AB0C9D /* LaunchScreen.xib in Resources */,
+				4CC22F6C1BDC13BD00AB0C9D /* Main.storyboard in Resources */,
+				4CC22F661BDC132C00AB0C9D /* dingcorrect.wav in Resources */,
+				4CC22F581BDC12CA00AB0C9D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CC22F3F1BDC110600AB0C9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CC22F281BDC110600AB0C9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC22F341BDC110600AB0C9D /* ViewController.swift in Sources */,
+				4CC22F321BDC110600AB0C9D /* AppDelegate.swift in Sources */,
+				4CC22F521BDC11D100AB0C9D /* GameModel.swift in Sources */,
+				4CC22F541BDC126B00AB0C9D /* Card.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CC22F3D1BDC110600AB0C9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC22F481BDC110600AB0C9D /* Christmas_Card_MatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CC22F431BDC110600AB0C9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CC22F2B1BDC110600AB0C9D /* Christmas Card Match */;
+			targetProxy = 4CC22F421BDC110600AB0C9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4CC22F491BDC110600AB0C9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CC22F4A1BDC110600AB0C9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CC22F4C1BDC110600AB0C9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Christmas Card Match/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CC22F4D1BDC110600AB0C9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Christmas Card Match/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4CC22F4F1BDC110600AB0C9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Christmas Card MatchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Christmas Card Match.app/Christmas Card Match";
+			};
+			name = Debug;
+		};
+		4CC22F501BDC110600AB0C9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Christmas Card MatchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Christmas Card Match.app/Christmas Card Match";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CC22F271BDC110600AB0C9D /* Build configuration list for PBXProject "Christmas Card Match" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CC22F491BDC110600AB0C9D /* Debug */,
+				4CC22F4A1BDC110600AB0C9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CC22F4B1BDC110600AB0C9D /* Build configuration list for PBXNativeTarget "Christmas Card Match" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CC22F4C1BDC110600AB0C9D /* Debug */,
+				4CC22F4D1BDC110600AB0C9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CC22F4E1BDC110600AB0C9D /* Build configuration list for PBXNativeTarget "Christmas Card MatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CC22F4F1BDC110600AB0C9D /* Debug */,
+				4CC22F501BDC110600AB0C9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CC22F241BDC110600AB0C9D /* Project object */;
+}
